@@ -1,3 +1,10 @@
 name: TARDIScraft
 main: tk.mypalsgaming.TARDIScraft.TARDIScraft
 version: 0.0.1
+depend: [Vault]
+commands:
+   tardis:
+      description: TARDIS Command Block and Admin Command
+      usage: /<command> <TARDIS command> [parameters]
+      permission: TARDIScraft.admin
+      permission-message: You are not a TARDIS Admin, so you do not have access to this command.
